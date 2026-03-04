@@ -1,7 +1,6 @@
 # 27051_DiversityMicrobes
 Files for exercises for the DTU 27051 course Diversity and application of microorganisms
 
-
 # Analyzing Microbial Communities with python 
 
 
@@ -10,11 +9,11 @@ Files for exercises for the DTU 27051 course Diversity and application of microo
 **Why?**
 Soil microbiomes harbor vast, largely uncultured diversity with important ecological roles and untapped natural products; overcoming cultivation barriers is a central challenge. In a [recent publication](https://doi.org/10.1016/j.soilbio.2025.109938) we investigated the use of Live-FISH for soil microbial communties to potentially improve cultivation.
 
-**What is Live‑FISH?** Live-Fluorescence in situ Hybridization (Live-FISH) is a fixation‑free variant of FISH that introduces rRNA‑targeted probes into livingcells, enabling taxon‑specific labeling of cells that can then be sorted based on the fluorescence label for downstream cultivation. 
+**What is Live‑FISH?** Live-Fluorescence in situ Hybridization (Live-FISH) is a fixation‑free variant of FISH that introduces rRNA‑targeted probes into living cells, enabling taxon‑specific labeling of cells that can then be sorted based on the fluorescence label for downstream cultivation. 
 
 **Who is alive?** To determine the viable cell fractions, we included a propidium monoazide (PMA) treatment. PMA crosslinks DNA of dead cells when exposed to 470 nm LED light inhibiting downstream PCR amplification.
 
-**What?** We sampled soil in Dyrehaven, Denmark and prepared microbial cell extracts from the soil and applied Live-FISH. There are four biological replicates for soil, viable cells and viable cells after Live-FISH. We applified and sequences the V3-V4 region of the 16S rRNA gene to characterise the microbial community.
+**What?** We sampled soil in Dyrehaven, Denmark and prepared microbial cell extracts from the soil and applied Live-FISH. There are four biological replicates for soil, viable cells and viable cells after Live-FISH. We amplified and sequenced the V3-V4 region of the 16S rRNA gene to characterise the microbial community.
 
 You now want to know: 
 
@@ -23,7 +22,7 @@ You now want to know:
 #### 2. How similar are the microbial communities between the soil, the viable extracted cells and the viable cells after Live-FISH to each other?
 
 
-We will use the [scikit-bio](https://scikit.bio/index.html) an open‑source Python library for bioinformatics, providing data structures and algorithms for analyzing biological and omics data.
+We will use the [scikit-bio](https://scikit.bio/index.html) libary, an open‑source Python library for bioinformatics, providing data structures and algorithms for analyzing biological and omics data.
 
 ## Setup your environment
 
@@ -64,11 +63,11 @@ if you run `conda list` once the installation is done, you can see all the libra
 
 ## Run the diversity analysis
 
-change your directory in ther teminal to where you want to run your anlysis and the files are 
+Download the git hub repository and unzip the files. Put the files into a folder where you want to run your analysis. Then change to that directory in your terminal with `cd`
 
 for example `cd /Users/Microbial_Diversity/Exercise5_python`
 
-to check what is in the new path use `ls -l` to list all files and folders there
+To check that the files are there and use `ls -l` to list all files and folders in your current directory.
 
 
 ### Option 1: jupyter notebook - groupwork5.ipynb
